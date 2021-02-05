@@ -1,0 +1,37 @@
+HELM
+
+Descargar yaml de nexus para saber que empaquetados vamos a descargar
+
+Descargar
+python3 read.py download helm.yaml helm-cf
+
+Subir
+python3 read.py upload helm.yaml https://cf1hlmnxs.dominio.net helm
+
+
+python3 read.py download helm-snapshots.yaml cf-helm-snapshots
+
+python3 read.py upload helm-snapshots.yaml https://cf1hlmnxs.dominio.net helm-snapshots
+
+
+python3 read.py download helm-releases.yaml cf-helm-releases
+
+python3 read.py upload helm-releases.yaml https://cf1hlmnxs.dominio.net helm-releases
+
+
+NPM
+
+mkdir directorio
+
+cd directorio
+
+Definir repositorios de descarga y subida
+
+Descargar empaquetados
+python3 ../npm.py
+
+Actualizar package.json con nuevo repositorio
+../updatePkg
+
+Subir empaquetados
+../uploadNpm

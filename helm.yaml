@@ -1,0 +1,115 @@
+entries:
+  - appVersion: '7.0'
+    created: 2020-09-11T19:51:39.432Z
+    description: Jboss EAP 7 - Corporaci?n Favorita
+    digest: 6859fc7202b724c1abc55043f176429ee5b3268eedd59e93a7e29b7967f67c94
+    icon: https://www.corporacionfavorita.com/wp-content/uploads/2017/07/logo-supermaxi.png
+    name: cf-jboss-7
+    urls:
+      - cf-jboss-7-3.0.1.tgz
+    version: 3.0.1
+  - appVersion: '7.0'
+    created: 2020-09-08T15:03:25.723Z
+    description: Jboss EAP 7 - Corporaci?n Favorita
+    digest: 05bbe7f46a4d2ce260306a2728ca310ee710031e35ed9521c5310ad8241f194c
+    icon: https://www.corporacionfavorita.com/wp-content/uploads/2017/07/logo-supermaxi.png
+    name: cf-jboss-7
+    urls:
+      - cf-jboss-7-3.tgz
+    version: '3'
+  - appVersion: '7.0'
+    created: 2020-09-17T03:03:30.615Z
+    description: Jboss EAP 7 - Corporaci?n Favorita
+    digest: 9051de2aa75046319f28a92d162aa3bd8e65d4bf566de590c8b1647ffdc1f7e8
+    icon: https://www.corporacionfavorita.com/wp-content/uploads/2017/07/logo-supermaxi.png
+    name: cf-jboss-7
+    urls:
+      - cf-jboss-7-4.0.0.tgz
+    version: 4.0.0
+  - appVersion: '7.0'
+    created: 2020-09-18T20:35:17.072Z
+    description: Jboss EAP 7 - Corporaci?n Favorita
+    digest: 9442ecdd14a680b88e4d9cfa8aac63fb15569895cb071423c98bc26bb8e78569
+    icon: https://www.corporacionfavorita.com/wp-content/uploads/2017/07/logo-supermaxi.png
+    name: cf-jboss-7
+    urls:
+      - cf-jboss-7-4.0.1.tgz
+    version: 4.0.1
+  - appVersion: 1.0.0-SNAPSHOT
+    created: 2020-09-08T16:53:07.025Z
+    description: A Helm chart for Kubernetes backend
+    digest: 23a2d0ae3932c60a6e663098b54c543e84ab925b147acd7a58d7dfbf9d4aa866
+    icon: https://bitbucket.org/corporacionfavorita/helm-chart-backend-app/raw/HEAD/backend.png
+    maintainers:
+      - email: darce@ec.krugercorp.com
+        name: darce
+    name: backend
+    urls:
+      - backend-2.6.0.tgz
+    version: 2.6.0
+  - appVersion: 1.0.0-SNAPSHOT
+    created: 2020-09-08T16:54:11.636Z
+    description: A Helm chart for Kubernetes backend
+    digest: ff577a56e0de36bd5245a7adc4dba4f4837dcc3c813ea2d37845b82826614f5e
+    icon: https://bitbucket.org/corporacionfavorita/helm-chart-backend-app/raw/HEAD/backend.png
+    maintainers:
+      - email: darce@ec.krugercorp.com
+        name: darce
+    name: backend
+    urls:
+      - backend-2.8.0.tgz
+    version: 2.8.0
+  - appVersion: 1.0.0-SNAPSHOT
+    created: 2020-09-08T16:55:20.625Z
+    description: A Helm chart for Kubernetes backend
+    digest: 1e2b7b35730ed531dc924eaebb6ef58d5bd05f4974742df8a9ad5b90814c2a90
+    icon: https://bitbucket.org/corporacionfavorita/helm-chart-backend-app/raw/HEAD/backend.png
+    maintainers:
+      - email: darce@ec.krugercorp.com
+        name: darce
+    name: backend
+    urls:
+      - backend-2.8.1.tgz
+    version: 2.8.1
+  - appVersion: 1.0.0-SNAPSHOT
+    created: 2020-09-08T15:21:33.529Z
+    description: A Helm chart for Kubernetes backend
+    digest: c6e6382eb9c33decebdc355a4bbeab468d6395bb5473516a0372dfe71bbca106
+    icon: https://bitbucket.org/corporacionfavorita/helm-chart-backend-app/raw/HEAD/backend.png
+    maintainers:
+      - email: darce@ec.krugercorp.com
+        name: darce
+    name: backend
+    urls:
+      - backend-2.9.0.tgz
+    version: 2.9.0
+  - appVersion: 1.0.0-SNAPSHOT
+    created: 2020-10-17T01:03:45.435Z
+    description: A Helm chart for Kubernetes backend
+    digest: 9fb4126e0a68a6b24b06a3cfbfa5fa5133df94f9e62eb88b027a305789b7c372
+    icon: https://bitbucket.org/corporacionfavorita/helm-chart-backend-app/raw/HEAD/backend.png
+    maintainers:
+      - email: darce@ec.krugercorp.com
+        name: darce
+    name: backend
+    urls:
+      - backend-2.9.1.tgz
+    version: 2.9.1
+  - appVersion: 1.0.0
+    created: 2020-09-08T15:22:34.612Z
+    description: A Helm chart for Kubernetes
+    digest: 28e8f2e9ea3630c140cd29ee71617ed5b22c0a11ead220a79d18f97fb1f898f1
+    icon: https://bitbucket.org/krugerdev/helm-chart-frontend-app/raw/HEAD/frontend.png
+    name: frontend
+    urls:
+      - frontend-1.0.0.tgz
+    version: 1.0.0
+  - appVersion: 1.0.0
+    created: 2020-10-17T01:57:24.756Z
+    description: A Helm chart for Kubernetes
+    digest: 150116d423aa23898e8a64fdbc28ca5da4c5336de293578b142811a287a6a930
+    icon: https://bitbucket.org/krugerdev/helm-chart-frontend-app/raw/HEAD/frontend.png
+    name: frontend
+    urls:
+      - frontend-1.1.0.tgz
+    version: 1.1.0

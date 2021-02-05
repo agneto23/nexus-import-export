@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#REPOSITORY=http://cf1jsnxs.favorita.ec/repository/test/
+
+#REPOSITORY=https://cf1nxs.cfavorita.net/repository/npm-internal/
+
+REPOSITORY=http://10.190.6.107:31415/repository/npm-internal/
+
+COUNTER=0
+
+for item in *.tgz; do
+    tar -xzf $item
+    json -I -f package/package.json -e "this.publishConfig.registry='$REPOSITORY'"
+    rm $item
+    tar -cvzf $item package/
+    rm -R package
+    COUNTER=$[COUNTER + 1]
+    echo $item $COUNTER "OK"
+done

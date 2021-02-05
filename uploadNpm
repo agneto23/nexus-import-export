@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#REPOSITORY=https://cf1nxs.cfavorita.net/repository/npm-internal/
+
+REPOSITORY=http://10.190.6.107:31415/repository/npm-internal/
+
+npm login --registry=$REPOSITORY
+
+COUNTER=0
+
+for package in *.tgz; do
+    npm publish --registry=$REPOSITORY $package
+    COUNTER=$[COUNTER + 1]
+    echo $item $COUNTER "OK"
+done
+
+
+#!/bin/bash
+
+#REPOSITORY=[REPOSITORY_URL]
+#PACKAGES_PATH=./packages
+#
+#npm login --registry=$REPOSITORY
+#
+#for package in $PACKAGES_PATH/*.tgz; do
+#    npm publish --registry=$REPOSITORY $package
+#done
