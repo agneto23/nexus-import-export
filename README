@@ -1,6 +1,8 @@
+NEXUS IMPORT EXPORT
+
 HELM
 
-Descargar yaml de nexus para saber que empaquetados vamos a descargar
+Descargar yaml de nexus para saber que empaquetados vamos a descargar (editar la estructura como el archivo helm.yaml)
 
 Descargar
 python3 read.py download helm.yaml helm-cf
